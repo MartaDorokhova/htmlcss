@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
+    color: rgb(59, 46, 2);
+    background-color: beige;
+    margin: 20px;
+}
+
+.container {
+max-width: 1200px;
+margin: auto;
+
+}
+.about {
+    font-size: 14px;
+
+}
+
+.social {
+    display: block;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+a {
+    font-weight: normal;
+    color: brown;
+    font-size: 12px;
+}
+
+a:hover {
+    color:darkgreen;
+}
+
+a:visited {
+    color:cornsilk;
+}
+
+.job {
+    background-color: bisque;
+    
+}
+
+.photo {
+    padding: 20px;
+    background-color: bisque;   
+    
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card2 {    
+    padding: 20px;
+    background-color:darksalmon;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    background-color: coral;
+    border: none;
+    text-align: center;
+    width: auto;
+    padding: 1px 5px;
+    border-radius: 5px;
+       
+}
+
+.list li {
+    margin-bottom: 6px;
+    color:darkred;
+}
+
+.table {
+   color: sienna;
+   width: 100%;
+}
+
+.table td:nth-child(2){
+    color:darkgoldenrod;
+    margin-left: 200px;
+}
+
+.table td{
+border: solid 1px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.forms label{
+    display: block;
+}
+
+.forms input,
+.forms textarea {
+    border: navajowhite;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+img {
+    margin-right: 50px;
+}
+
+@media (max-width:650px){
+.info {
+    display: block;
+    text-align: center;
+}
+}
